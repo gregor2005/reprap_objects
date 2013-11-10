@@ -33,19 +33,3 @@ difference() {
 	translate([width/2,-(lenght-thickness),-1])
 		cylinder(h=thicknessbottom+thicknessbottom+nutheight+5,r=holediameter/2);
 }
-
-/*
-difference() {
-	cylinder(h=nutheight+wallthickness,r=weeldiameter/2);
-	translate([0,0,-1])
-		cylinder(h=nutheight+wallthickness+5,r=holediameter/2);
-	translate([0,0,wallthickness])
-		cylinder(r = nutdiagonal/2, h=nutheight+5, $fn=6);
-	translate([0,0,-1])
-		grip();
-}
-*/
-/*
-	translate([0,0,wallthickness])
-		cylinder(r = nutdiagonal/2, h=nutheight, $fn=6);
-*/
