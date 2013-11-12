@@ -1,6 +1,6 @@
 /*
  * file: configure.scad
- * author: gregor binder
+ * author: gregor binder <gregor_reprap@catrix.at>
  * date: 10.11.2013
  * last change: 10.11.2013
  * license: CC BY-NC-SA 3.0
