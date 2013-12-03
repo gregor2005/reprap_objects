@@ -11,11 +11,12 @@
 cablediameter=7;
 width=17;
 heightfront=9;
-heightback=16;
+heightback=22;
 plugthickness=8;
 plugheight=9;
 thickness=3;
 fillet=6;
+$fn=100;
 
 /******************/
 
