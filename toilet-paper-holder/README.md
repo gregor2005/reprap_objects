@@ -8,6 +8,9 @@ material:
 - little stick, i used a chopstick
 
 author: gregor binder <gregor_reprap@catrix.at>
+
 date: 18.1.2014
+
 last change: 18.1.2014
+
 license: CC BY-NC-SA 4.0
