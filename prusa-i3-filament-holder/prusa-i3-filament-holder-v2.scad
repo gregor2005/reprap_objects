@@ -2,23 +2,13 @@
  * file: prusa-i3-filament-holder-v2.scad
  * author: gregor binder <gregor_reprap@catrix.at>
  * date: 13.11.2013
- * last change: 14.11.2013
- * license: CC BY-NC-SA 3.0
+ * last change: 26.1.2014
+ * license: CC BY-NC-SA 4.0
  * changelog:
  *	- switched from freecad to openscad
  */
 
-bottomwidth=60;
-bottomheight=5;
-depth=25;
-height=100-bottomheight;
-width=20;
-holediameter=3;
-thickness=3;
-holderdepth=10;
-$fn=100;
-
-/********************/
+include <configure.scad>
 
 difference() {
 	cube([bottomwidth,depth,bottomheight]);
