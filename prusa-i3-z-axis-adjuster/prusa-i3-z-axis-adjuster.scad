@@ -7,17 +7,21 @@
  */
 
 width=15;
-heigth=30;
+heigth=25; //30;
 lenght=12;
-thickness=5;
-thicknessbottom=3;
-holediameter=4;
+thickness=4;
+thicknessbottom=1.5; //3;
+holediameter=5;
+holediameter2=2.5;
 distance=10;
 
-nutsize=6;
-nutheight=3;
-nutdiagonal=7;
+nutsize=4.5; //6;
+nutheight=2.5; //3;
+nutdiagonal=6; //7;
 
+$fn=100;
+
+rotate([-90,0,0]){
 
 difference() {
 	cube([width,thickness,heigth]);
@@ -31,5 +35,7 @@ difference() {
 	translate([(width/2)-(nutsize/2),-(lenght-thickness+6),thicknessbottom])
 		cube([nutsize,lenght-thickness+5,nutheight]);
 	translate([width/2,-(lenght-thickness),-1])
-		cylinder(h=thicknessbottom+thicknessbottom+nutheight+5,r=holediameter/2);
+		cylinder(h=thicknessbottom+thicknessbottom+nutheight+5,r=holediameter2/2);
+}
+
 }
